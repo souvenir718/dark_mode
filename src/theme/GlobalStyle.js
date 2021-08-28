@@ -16,4 +16,13 @@ export const GlobalStyle = createGlobalStyle`
         word-wrap: break-word;
         text-rendering: optimizeLegibility
     }
+    a{
+        text-decoration: none;
+        &:hover{
+            color: black
+        }
+        &:visited{
+            color: black
+        }
+    }
 `;

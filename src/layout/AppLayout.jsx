@@ -17,4 +17,9 @@ const AppLayout = ({ children }) => {
 };
 export default AppLayout;
 const WrapContainer = styled.div``;
-const FlexContainer = styled.div``;
+const FlexContainer = styled.div`
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
